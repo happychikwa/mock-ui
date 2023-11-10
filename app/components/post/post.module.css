@@ -1,0 +1,47 @@
+.container{
+    position: relative;
+    margin: 5px;
+}
+.textarea{
+    resize: none;
+    margin-bottom: 5px;
+}
+.postButton{
+    position: absolute;
+    right: 16px;
+}
+.attachmentButton{
+    position: absolute;
+    left: 16px;
+}
+.postContainer{
+    width: 80%;
+    background-color: aqua;
+}
+.profilePicture{
+    position: relative;
+    width: 20%;
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: blue;
+    width: 60%;
+}
+.userPostHeader{
+    display: flex;
+    flex-direction: row;
+}
+.userPostFooter{
+    display: flex;
+    flex-direction: row;
+}
+.postOptions{
+    width: 2%;
+}
+.innerPostContainer{
+    margin: 10px;
+}
